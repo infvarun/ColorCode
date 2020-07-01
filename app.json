@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "ColorCode",
+    "slug": "ColorCode",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/splashcc.png",
+    "splash": {
+      "image": "./assets/splashcc.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thezeroone.colorcatalog"
+    },
+    "android": {
+      "package": "com.thezeroone.colorcatalog",
+      "permissions": [
+        "VIBRATE"
+      ]
+    }
+  }
+}
